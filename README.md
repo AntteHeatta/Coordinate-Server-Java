@@ -9,7 +9,7 @@ Instructions:
 <br>
 1. Install Curl-tool<br>
 2. Create a certificate using command prompt with the command: keytool -genkey -alias alias -keyalg RSA -keystore keystore.jks -keysize 2048<br>
-3. Change the filepath in Server.java (Line 97) to match where your certificate is<br>
+3. Change the filepath in Server.java (Line 97 and include ") to match where your certificate is<br>
 4. Change the "Keystore.jks password here" to your password used in the creation of certificate (Line 94 on Server.java and include ")<br><br>
 
 I suggest to use DB Reader to access the database. It makes it easy to see what is inside the database<br>
